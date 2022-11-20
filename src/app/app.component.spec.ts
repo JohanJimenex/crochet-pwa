@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'crochet-pwa'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('crochet-pwa');
   });
 
   it('should render title', () => {

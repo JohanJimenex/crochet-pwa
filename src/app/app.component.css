@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor{
+    padding: 3rem;
+    max-width: 30rem ;
+    margin-inline: auto;
+
+    /* container p-3 d-flex flex-column text-center mx-auto */
+}
+
+.screen {
+    background-color: rgb(216, 152, 236);
+    width: 27rem auto;
+    max-width: 27rem;
+    /* min-width: 25rem; */
+    display: flex;
+    border-radius: 3rem;
+    justify-content: center;
+    margin-inline: auto;
+}
+
+.circle {
+    background-color: white;
+    height: 14rem;
+    width: 14rem;
+    border-radius: 8rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.total-container {
+    background-color: rgb(249, 230, 149);
+    color: gray;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.total-input {
+    background-color: rgb(249, 230, 149);
+    color: gray;
+    border: none;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+
+
+.botones-container {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-mas {
+    border: none;
+    background-color: rgb(154, 227, 244);
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8rem;
+    font-size: 3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-menos {
+    border: none;
+    background-color: rgb(175, 154, 244);
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8rem;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.btn-reset {
+    border: none;
+    position: fixed;
+    bottom: 1rem;
+    background-color: rgb(235, 148, 197);
+    color: white;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 8rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.disable-dbl-tap-zoom {
+    touch-action: manipulation;
+}
