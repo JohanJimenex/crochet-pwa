@@ -22,6 +22,11 @@ export class AppComponent implements OnInit {
     this.pending = this.total - this.row
 
     this.guardarDatos();
+
+    if (this.pending < 0) {
+      this.pending = 0
+    }
+
   }
 
   public reset(): void {
