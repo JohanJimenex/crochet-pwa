@@ -21,18 +21,22 @@ export class AppComponent implements OnInit {
     this.row = this.row + num;
     this.pending = this.total - this.row
 
-    this.guardarDatos();
-
     if (this.pending < 0) {
       this.pending = 0
     }
+    if (this.row < 0) {
+      this.row = 0
+    }
+
+    this.guardarDatos();
+
 
   }
 
   public reset(): void {
     localStorage.clear();
     this.row = 0;
-    this.total = null;
+    this.total = 0;
     this.pending = 0;
   }
 
