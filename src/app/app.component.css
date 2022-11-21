@@ -4,9 +4,9 @@
     box-sizing: border-box;
 }
 
-.contenedor{
+.contenedor {
     padding: 3rem;
-    max-width: 30rem ;
+    max-width: 30rem;
     margin-inline: auto;
 
     /* container p-3 d-flex flex-column text-center mx-auto */
@@ -103,6 +103,6 @@
     margin-bottom: 1rem;
 }
 
-.disable-dbl-tap-zoom {
-    touch-action: manipulation;
+* {
+    touch-action: manipulation !important;
 }
